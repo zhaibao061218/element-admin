@@ -1,0 +1,145 @@
+/**/
+.el-select-dropdown__item {
+  text-indent: 14px;
+}
+
+.withdrawalE {
+  .el-select-dropdown__item {
+    text-indent: 14px;
+  }
+
+  .el-dialog__body {
+    padding: 30px 0px;
+
+    .el-form {
+      width : 72%;
+      margin: auto;
+    }
+  }
+
+  .el-form-item {
+    margin-bottom: 15px;
+    &.accountWarn {
+      margin-bottom: 20px;
+      position: relative;
+      span{
+        &:last-child{
+          color: red;
+          position: absolute;
+          bottom: -27px;
+          left: 0px;
+          font-size: 12px;
+        }
+      }
+    }
+    label {
+      font-weight: 400;
+      color      : #797979;
+      text-align : left;
+    }
+  }
+
+  .el-input__inner {
+    width: 200px;
+  }
+  .el-dialog__footer{
+    text-align: center;
+    .el-button--medium{
+      padding: 6px 12px;
+    }
+    .close{
+      background: red;
+      color:#ffffff;
+    }
+  }
+}
+.withdrawal{
+  .propView{
+    width: 570px;
+    margin: auto;
+    
+  }
+}
+.el-dialog__header {
+  padding    : 0px;
+  height     : 40px;
+  line-height: 40px;
+  background : #4ba3d3;
+
+  .el-dialog__title {
+    font-size  : 14px;
+    color      : #ffffff;
+    margin-left: 14px;
+  }
+
+  .el-dialog__headerbtn .el-dialog__close {
+    color   : #ffffff;
+    position: relative;
+    top     : -10px;
+  }
+
+}
+
+.redemptionCode {
+  width: 300px;
+}
+// 二维码
+.qrCode {
+  width: 350px;
+  height: 350px;
+  .el-dialog__footer{
+    border: 0px;
+    text-align: center;
+    .el-button--medium{
+      padding: 6px 10px;
+      background: #f6a951;
+      color: #ffffff;
+      outline: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .qrCodeView {
+    text-align: center;
+     p{
+       margin-bottom: 20px;
+       font-size: 16px;
+       color: #ec6c22;
+     }
+    .qrCodeIco {
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      border: 1px solid red;
+      border-radius: 4px;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .el-dialog{
+    width: 90% !important;
+  }
+  
+  
+  
+  .el-scrollbar{
+    height: 90px;
+  }
+  .drawerE{
+    .el-input__suffix{display: flex;align-items: center;}
+    .el-input--medium .el-input__inner{height: 28px;line-height: 28px;font-size: 12px;}
+    .el-form-item--medium .el-form-item__label {line-height: 28px;text-align: right;}
+    .el-form-item__label{font-size: 12px;}
+    .el-drawer__header span:focus {outline: 0;}
+    .el-form-item--medium .el-form-item__content{line-height: 28px;color: #797979;font-size: 12px;}
+  }
+
+  .drawerWithdrawal{
+    .el-input--medium .el-input__inner{height: 28px;line-height: 28px;font-size: 12px;}
+    .el-select .el-input .el-select__caret{display: flex;align-items: center;}
+    .el-drawer__header span:focus {outline: 0;}
+  }
+  .mobileAlert{width: 70%;}
+}

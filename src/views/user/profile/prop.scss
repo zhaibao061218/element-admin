@@ -1,0 +1,76 @@
+.updatePsd {
+    min-width: 500px;
+
+    .btnGroup {
+        text-align: right;
+    }
+    .el-form-item__label{
+        text-align: left;
+    }
+}
+
+.el-dialog {
+    min-width:400px;
+}
+
+.updatePhoneNumber {
+    min-width: 500px;
+
+    .el-form-item__label {
+        text-align: left;
+    }
+
+    .phoneCode {
+        .el-input--medium {
+            width       : 200px;
+            float       : left;
+            margin-right: 20px;
+        }
+
+        button {
+            border       : none;
+            display      : inline-block;
+            height       : 36px;
+            line-height  : 36px;
+            background   : #5bc0de;
+            color        : #fff;
+            outline      : none;
+            width        : 100px;
+            border-radius: 4px;
+            cursor       : pointer;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+        
+    }
+    .btnGroup {
+        .el-button--medium{
+            margin-left: 0px;
+            display: inline-block;
+            width           : 290px;
+            height          : 40px;
+            background-color: #5bc0de;
+            color           : #ffffff;
+            margin-top: 30px;
+        }
+        
+    }
+}
+.setRoles{
+    color: #333;
+    min-width: 500px;
+    .el-checkbox{
+        margin-bottom: 10px;
+    }
+    .el-checkbox__input.is-checked + .el-checkbox__label{
+        color: #333;
+    }
+    input{
+        width: 30px;
+        outline: none;
+    }
+}
+

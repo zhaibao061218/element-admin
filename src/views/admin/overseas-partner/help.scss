@@ -1,0 +1,42 @@
+.homeView {
+    .el-form {
+        overflow: hidden;
+        // float: left;
+        .el-form-item {
+            width: 300px;
+            float: left;
+        }
+        .timeGroup {
+            width: 520px;
+            .el-form-item {
+                width: 200px;
+            }
+            .breakpoint {
+                float : left;
+                margin: 0 3px;
+            }
+        }
+        .btnGroup {
+            position: relative;
+            left    : -50px;
+            width: 500px;
+            .classType,.addHelp{
+                display: inline-block;
+                width: 100px;
+                height: 34px;
+                line-height: 34px;
+                text-align: center;
+                border: 1px solid #02A7F0;
+                color: #02A7F0;
+                margin-left: 10px;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+        }
+    }
+    .helpTable{
+        .el-table--medium th, .el-table--medium td{padding: 3px 0;}
+        td,th{text-align: center;}
+    }
+
+}

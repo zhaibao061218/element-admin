@@ -1,0 +1,92 @@
+/**/
+
+.el-dialog__header {
+  padding    : 0px;
+  height     : 40px;
+  line-height: 40px;
+  background : #4ba3d3;
+
+  .el-dialog__title {
+    font-size  : 14px;
+    color      : #ffffff;
+    margin-left: 14px;
+  }
+
+  .el-dialog__headerbtn .el-dialog__close {
+    color   : #ffffff;
+    position: relative;
+    top     : -10px;
+  }
+
+}
+
+.rennewProp {
+  min-width: 500px;
+  .el-dialog__footer {
+    text-align: center;
+    .el-button--primary {
+      display: inline-block;
+      width  : 260px;
+      height: 41px;
+      line-height: 41px;
+      background: #4ba3d3;
+    }
+  }
+  h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  h4 + p{
+   margin-bottom: 30px;
+   font-size: 16px;
+   color: #66615b;
+   line-height: 24px;
+  }
+}
+
+.warnRecharge {
+  min-width: 500px;
+
+  .propBody {
+    h4 {
+      text-align: center;
+      font-size : 16px;
+
+      span {
+        color: red;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      margin    : 40px 0px;
+      font-size : 20px;
+      color     : red;
+    }
+
+    p {
+      text-align: center;
+
+      button {
+        border       : 0px;
+        display      : inline-block;
+        width        : 260px;
+        height       : 45px;
+        line-height  : 45px;
+        text-align   : center;
+        background   : #4ba3d3;
+        color        : #ffffff;
+        border-radius: 5px;
+        margin       : 40px 0px;
+        outline      : none;
+        cursor       : pointer;
+      }
+
+      &.warnText {
+        color      : red;
+        font-size  : 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}
